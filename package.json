@@ -1,0 +1,25 @@
+{
+  "name": "sandbox-starter",
+  "version": "1.0.0",
+  "description": "Starter for playing around with small projects.",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "./node_modules/gulp/bin/gulp.js"
+  },
+  "author": "Patrick Hladun",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  },
+  "dependencies": {}
+}
