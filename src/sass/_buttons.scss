@@ -1,0 +1,45 @@
+$button-padding: 1.4rem 2.2rem;
+
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background: $color-shade-lighter;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: $button-padding;
+  margin: 2rem 0;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: initial;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  &:hover {
+    background: $color-shade-lighter;
+  }
+  &:active {
+  }
+}
+
+.button__primary {
+  background: $color-primary;
+  border-color: $color-primary;
+  color: $color-light;
+  &:hover {
+    background: $color-primary-dark;
+    border-color: $color-primary-dark;
+    color: $color-light;
+  }
+}
+
+

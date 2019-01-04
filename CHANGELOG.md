@@ -1,6 +1,9 @@
 # Sandbox Starter changelog
 
-## Start the project - Monday 31 December 2018
+## Release Version 1.0.0 - Friday 04 January 2019
 
-- First run
+- Initial version of the Rental Yied Calculator
+
+## Start the project - Friday 03 January 2019
+
 - Initial commit

@@ -1,0 +1,28 @@
+$color-light:       #ffffff;
+$color-shade:       #808080;
+$color-primary:     #e95a50;
+$color-secondary:   #2070a7;
+
+$color-shade-light: tint($color-shade, 40%);
+$color-shade-lighter: tint($color-shade, 80%);
+$color-shade-lightest: tint($color-shade, 94%);
+$color-shade-dark: shade($color-shade, 40%);
+$color-shade-darker: shade($color-shade, 60%);
+$color-shade-darkest:  shade($color-shade, 70%);
+
+$color-primary-light: tint($color-primary, 20%);
+$color-primary-lighter: tint($color-primary, 30%);
+$color-primary-lightest: tint($color-primary, 50%);
+$color-primary-dark: shade($color-primary, 10%);
+$color-primary-darker: shade($color-primary, 20%);
+$color-primary-darkest: shade($color-primary, 30%);
+
+$color-secondary-light: tint($color-secondary, 20%);
+$color-secondary-lighter: tint($color-secondary, 40%);
+$color-secondary-lightest: tint($color-secondary, 60%);
+$color-secondary-dark: shade($color-secondary, 20%);
+$color-secondary-darker: shade($color-secondary, 40%);
+$color-secondary-darkest: shade($color-secondary, 60%);
+
+$color-text: $color-shade-darkest;
+$color-background: #eae7dc;
