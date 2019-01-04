@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  // Fix Firefox font overweight
+  // https://www.lockedowndesign.com/firefox-font-weight-too-bold/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+body {
+  font-size: 2rem;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  color: $color-text;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

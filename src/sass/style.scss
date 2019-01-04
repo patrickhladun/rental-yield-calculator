@@ -1,3 +1,7 @@
-body {
-    background: red;
-}
+@import 'normalize';
+@import 'functions';
+@import 'variables';
+@import 'general';
+@import 'buttons';
+@import 'forms';
+@import 'project';

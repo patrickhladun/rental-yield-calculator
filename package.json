@@ -1,7 +1,6 @@
 {
-  "name": "sandbox-starter",
+  "name": "rental-yield-calculator",
   "version": "1.0.0",
-  "description": "Starter for playing around with small projects.",
   "main": "index.js",
   "scripts": {
     "gulp": "./node_modules/gulp/bin/gulp.js"

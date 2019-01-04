@@ -1,0 +1,29 @@
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-field {
+  position: relative;
+  margin-top: 3.4rem;
+  margin-bottom: 1.6rem;
+
+  input {
+    font-size: 1.8rem;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+  }
+
+  label {
+    position: absolute;
+    font-size: 1.6rem;
+    top: -2rem;
+    left: 0;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
