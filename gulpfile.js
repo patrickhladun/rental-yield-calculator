@@ -41,7 +41,8 @@ const options = {
         },
         files: [
             '/assets/css/style.css'
-        ]
+        ],
+        tunnel: true
     }
 };
 
